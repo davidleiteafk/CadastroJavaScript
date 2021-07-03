@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilo3.css">
+    <link rel="shortcut icon" href="img/favicon2.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Cadastre-se</h1>
+    </header>
+    <section> 
+        <div>
+            <p>rimeiro nome:
+                <input type="text" name="nome" id="nome">
+            </p>
+            <p>Ano de nascimento 
+                <input type="number" name="ano" id="ano" min="0">
+            </p>
+            <p> sexo:
+                 <input type="radio" name="radsex" id="mas" checked>
+                 <label for="mas">Masculino</label>
+                 <input type="radio" name="radsex" id="fem">
+                 <label for="fem">Feminino</label>
+            </p>
+            <p>
+            <input id="btn" type="button" value="verificar" onclick="clicar()">
+            </p>
+            <div id="1">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Davidtorres</p>
+    </footer>
+    <script src="script3.js"></script>
+</body>
+</html>
